@@ -108,7 +108,6 @@ https://www.rfc-editor.org/rfc/rfc3261
 
 # How should I get involved?
 you can contact me here to participate in the test.  
-Gamil 0x.jack.home@gmail.com  
 Twitter https://twitter.com/telprotocol
 
 # Donations
