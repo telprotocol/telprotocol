@@ -143,7 +143,7 @@ Twitter https://twitter.com/telprotocol
 # Donations
 
 If you want to support the project, here  
-0xe348A8497A00aE9674CeA417119a594b1706cF52  
+https://etherscan.io/address/0xe348A8497A00aE9674CeA417119a594b1706cF52  
 
 
 # Note
