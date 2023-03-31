@@ -1,11 +1,13 @@
 # What is Telprotocol?
+
 Telprotocol is building a layer of decentralized communication networks. It can be used for dialing telephone, text message service, video calling .
 
 The architecture of Telprotocol is a peer-to-peer protocol architecture, similar to the P2P architecture. Telprotocol is built on zksync. The telephone supports multiple chains and cross-chain transfers, and users can also use it on arbitrum or optimism.
 
 
 # What problems does Telprotocol solve?
-Most of the calls in the current market run as centralized services, such as China Telecom, China Unicom, and Skype.
+
+Most of the calls in the current market run as centralized services, such as AT&T, T-Mobile, and Skype.
 Telprotocol is built on a blockchain and is explored in the direction of decentralization. It has the following advantages:
 
 1. The user's core data is stored in the chain.
@@ -15,7 +17,9 @@ Telprotocol is built on a blockchain and is explored in the direction of decentr
 
 
 # What does Telprotocol consist of ?
+
 ![avatar](/tel.png)
+
 1. 
 The core data is stored in the chain as NFT and is under the full control of the user.
 
@@ -29,6 +33,7 @@ The node is mainly responsible for the establishment of signaling channel. the n
 
 
 # How Telprotocol is implemented？
+
 Telprotocol is a layer of point-to-point communication network built on a user's core data. The data interaction between the UA and Node satisfies the Sip protocol.
 
 The user's core data is the basis of telprotocol, UA loads the user's core data, the user needs signature verification.
@@ -101,6 +106,7 @@ Alice "calls" Bob using his identity alice.eth, a type of Uniform Resource
 
 
 # How should I get involved?
+
 Telephone
 ![avatar](/telephone.png)
 
@@ -110,6 +116,7 @@ Sms
 
 
 # How to ensure the security of the account?
+
 Deep Login and Light Login
 Deep Login： In the UA end, you must import the account of Ethereum to verify the authenticity of the data.
 
@@ -129,13 +136,16 @@ https://youtube.com/shorts/wedcUmf_yrY?feature=share
 
 
 # How should I get involved?
+
 you can contact me here to participate in the test.  
 Twitter https://twitter.com/telprotocol
 
 # Donations
+
 If you want to support the project, here  
 0xe348A8497A00aE9674CeA417119a594b1706cF52  
 
 
 # Note
+
 In the early stages of development, the documentation will be continuously updated.
