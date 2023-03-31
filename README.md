@@ -1,41 +1,39 @@
-# telprotocol
-This paper aims to explore a new type of network transmission structure. A decentralized communication protocol based on SIP protocol combined with block chain technology.
+# What is Telprotocol?
+Telprotocol is building a layer of decentralized communication networks. It can be used for dialing telephone, text message service, video calling .
+
+The architecture of Telprotocol is a peer-to-peer protocol architecture, similar to the P2P architecture. Telprotocol is built on zksync. The telephone supports multiple chains and cross-chain transfers, and users can also use it on arbitrum or optimism.
 
 
-# Several popular architectures:
-C/S architecture is a typical two-tier architecture, the full name is Client/Server, that is, Client/Server-side architecture.  
-  
-B/S (Browser/Server) architecture, that is, Browser and Server architecture pattern, is a change or improvement of C/S architecture with the rise of Internet technology.  
-  
-P2P networks, which are peer-to-peer networks, rely on the computing power and bandwidth of the participants in the network, rather than concentrating the dependencies on fewer servers.  
-  
-In 2009, Bitcoin, the first open-source, decentralized cryptocurrency to be run by non-government, Internet users, became available to more people to learn about the power of the blockchain.  
-Decentralization and exclusive ownership are the biggest features of bitcoin. The popularity of bitcoin, but also from the side of the People's desire for freedom, no borders, exclusive rights. My is my, others can not interfere, I do not like others to pry into my privacy, do their own things.
-A borderless, free, user-friendly communications network is necessary.
+# What problems does Telprotocol solve?
+Most of the calls in the current market run as centralized services, such as China Telecom, China Unicom, and Skype.
+Telprotocol is built on a blockchain and is explored in the direction of decentralization. It has the following advantages:
+
+1. The user's core data is stored in the chain.
+2. Communication data, is a point-to-point connection, there is no intermediate server.
+3. Encrypt communication data to ensure data security.
+4. Transmission of core data is real-time, after receiving immediately destroyed, to ensure the safety of calls.
 
 
-# How does this work?
+# What does Telprotocol consist of ?
 ![avatar](/tel.png)
-1. The base data is stored in the chain and is under the full control of the user.
-Telephone: The identity number, through which users can find other users on The chain.
-In the form of NFT, store in the chain, support users to sell, once sold, and the user-related data will change.
-Support for custom names, such as Alice.eth
+1. 
+The core data is stored in the chain as NFT and is under the full control of the user.
 
-2. UC, which is a client that users can use to communicate with other users. UC is usually implemented on multiple platforms, mobile, PC, and Web.
-UC is divided into two categories, one is to support deep login (need to import the Ethernet account way of login) , the other is to support light login (use phone and password, direct login) .
-Deep login fully controls light login. The implementation of UC needs to satisfy the SIP protocol partial protocol.
+2. 
+UA, which is a client that users can use to communicate with other users. UA is usually implemented on multiple platforms, mobile, PC, and Web.
+UA is divided into two categories, one is to support deep login (need to import the Ethernet account way of login) , the other is to support light login (use password, direct login) .
+Deep login fully controls light login. The implementation of UA needs to satisfy SIP protocol .
 
-3. The node is mainly responsible for the establishment of signaling channel, the node will load the block chain data automatically, and the data interaction of the node supports part of the SIP protocol.
-There will be a hub on the final node, and the hub will assign users to different nodes based on the current network operation status to support more users.
-Each node can support about 1000 users at the same time, and there will be differences in different environments.
-
-4. The user-generated data mainly exists in the UC end, and the node does not store the data. Users can choose to use deep login, upload to the decentralized storage side, if the UC is deleted, users can download other UC side, and then in the way of deep login, can be repulled from the decentralized storage side. Data will be shared between different UC.
-
-5. Data support encryption, to ensure the security of user's important data.
+3. 
+The node is mainly responsible for the establishment of signaling channel. the node will load the block chain data automatically, and the data interaction of the node supports part of SIP protocol.
 
 
-# How to communicate?
-The architecture of telprotocol is a peer-to-peer protocol architecture, similar to the P2P architecture, and the data form of request and response between node and UC of telprotocol satisfies SIP protocol.
+# How Telprotocol is implemented？
+Telprotocol is a layer of point-to-point communication network built on a user's core data. The data interaction between the UA and Node satisfies the Sip protocol.
+
+The user's core data is the basis of telprotocol, UA loads the user's core data, the user needs signature verification.
+
+Node verifies the authenticity of UA data by loading the user's core data. Node builds a signaling channel for the authenticated user.
 
 Alice "calls" Bob using his identity alice.eth, a type of Uniform Resource
    Identifier (URI) called a URI,such as alice.eth@telprotocol.
@@ -102,8 +100,32 @@ Alice "calls" Bob using his identity alice.eth, a type of Uniform Resource
    ![avatar](/interaction.png)
 
 
-For more detailed data exchange benchmarks, see:  
-https://www.rfc-editor.org/rfc/rfc3261  
+# How should I get involved?
+Telephone
+![avatar](/telephone.png)
+
+
+Sms
+![avatar](/sms.png)
+
+
+# How to ensure the security of the account?
+Deep Login and Light Login
+Deep Login： In the UA end, you must import the account of Ethereum to verify the authenticity of the data.
+
+Light Login:  In the UA side, you don't need to import your account, but use a password to log in.
+
+The password must be set in Deep Login mode.
+
+
+# Telprotocol Demo
+
+PC Slide
+https://youtu.be/7Kk0W4Zxly4
+
+
+Mobile Slide
+https://youtube.com/shorts/wedcUmf_yrY?feature=share
 
 
 # How should I get involved?
