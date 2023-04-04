@@ -2,13 +2,12 @@
 
 Telprotocol is building a layer of decentralized communication networks. It can be used for dialing telephone, text message service, video calling .
 
-The architecture of Telprotocol is a peer-to-peer protocol architecture, similar to the P2P architecture. Telprotocol is built on zksync. The telephone supports multiple chains and cross-chain transfers, and users can also use it on arbitrum or optimism.
-
+The architecture of telprotocol is a peer-to-peer protocol architecture. The core data is stored in the chain as NFT. Telprotocol supports multiple chains and cross-chain transfers, and users can also use it on ethereum, arbitrum, optimism, zksync, etc .
 
 # What problems does Telprotocol solve?
 
 Most of the calls in the current market run as centralized services, such as AT&T, T-Mobile, and Skype.
-Telprotocol is built on a blockchain and is explored in the direction of decentralization. It has the following advantages:
+Telprotocol is built on blockchain and is explored in the direction of decentralization. It has the following advantages:
 
 1. The user's core data is stored in the chain.
 2. Communication data, is a point-to-point connection, there is no intermediate server.
