@@ -2,7 +2,7 @@
 
 Telprotocol is a decentralized communication network based on SIP-Protocol. It can be used for dialing telephone, text message service, video calling .
 
-The architecture of telprotocol is a peer-to-peer protocol architecture. The core data is stored in the chain as NFT. Telprotocol supports multiple chains and cross-chain transfers, and users can also use it on ethereum, arbitrum, optimism, zksync, etc .
+The architecture of telprotocol is a peer-to-peer protocol architecture. The core data is stored in the chain . Telprotocol supports multiple chains and users can also use it on ethereum, arbitrum, optimism, zksync, etc .
 
 # What problems does Telprotocol solve?
 
@@ -23,18 +23,18 @@ Telprotocol is built on blockchain and is explored in the direction of decentral
 CoreData consists of two parts, the NFT (such as the ENS domain name) and the data for the direction setting.
 Users can set blacklist
 
-3. 
+2. 
 UA, which is a client that users can use to communicate with other users. UA is usually implemented on multiple platforms, mobile, PC, and Web.
 UA is divided into two categories, one is to support deep login (need to import the Ethernet account way of login) , the other is to support light login (use password, direct login) .
 Deep login fully controls light login. 
 
-4. 
+3. 
 The node is mainly responsible for the establishment of signaling channel.
 
 
 # How Telprotocol is implemented？
 
-Telprotocol is a layer of point-to-point communication network built on a user's core data. The data interaction between the UA and Node satisfies the Sip Protocol.
+Telprotocol is a layer of point-to-point communication network built on a user's core data. The data interaction between the UA and Node.
 
 The user's core data is the basis of telprotocol, UA loads the user's core data, the user needs signature verification.
 
@@ -107,7 +107,7 @@ Alice "calls" Bob using his identity alice.eth, a type of Uniform Resource
 
 # Business scene
 
-Telephone/Voip
+Telephone
 ![avatar](/telephone.png)
 
 
