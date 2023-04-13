@@ -1,6 +1,6 @@
 # What is Telprotocol?
 
-Telprotocol is building a layer of decentralized communication networks. It can be used for dialing telephone, text message service, video calling .
+Telprotocol is a decentralized communication network based on SIP-Protocol. It can be used for dialing telephone, text message service, video calling .
 
 The architecture of telprotocol is a peer-to-peer protocol architecture. The core data is stored in the chain as NFT. Telprotocol supports multiple chains and cross-chain transfers, and users can also use it on ethereum, arbitrum, optimism, zksync, etc .
 
@@ -23,17 +23,20 @@ Telprotocol is built on blockchain and is explored in the direction of decentral
 The core data is stored in the chain as NFT and is under the full control of the user.
 
 2. 
-UA, which is a client that users can use to communicate with other users. UA is usually implemented on multiple platforms, mobile, PC, and Web.
-UA is divided into two categories, one is to support deep login (need to import the Ethernet account way of login) , the other is to support light login (use password, direct login) .
-Deep login fully controls light login. The implementation of UA needs to satisfy SIP protocol .
+Telephone Layber: Built on LayerZero, Users can set blacklist
 
 3. 
-The node is mainly responsible for the establishment of signaling channel. the node will load the block chain data automatically, and the data interaction of the node supports part of SIP protocol.
+UA, which is a client that users can use to communicate with other users. UA is usually implemented on multiple platforms, mobile, PC, and Web.
+UA is divided into two categories, one is to support deep login (need to import the Ethernet account way of login) , the other is to support light login (use password, direct login) .
+Deep login fully controls light login. 
+
+4. 
+The node is mainly responsible for the establishment of signaling channel.
 
 
 # How Telprotocol is implemented？
 
-Telprotocol is a layer of point-to-point communication network built on a user's core data. The data interaction between the UA and Node satisfies the Sip protocol.
+Telprotocol is a layer of point-to-point communication network built on a user's core data. The data interaction between the UA and Node satisfies the Sip Protocol.
 
 The user's core data is the basis of telprotocol, UA loads the user's core data, the user needs signature verification.
 
@@ -104,9 +107,9 @@ Alice "calls" Bob using his identity alice.eth, a type of Uniform Resource
    ![avatar](/interaction.png)
 
 
-# How should I get involved?
+# Business scene
 
-Telephone
+Telephone/Voip
 ![avatar](/telephone.png)
 
 
