@@ -20,10 +20,8 @@ Telprotocol is built on blockchain and is explored in the direction of decentral
 ![avatar](/tel.png)
 
 1. 
-The core data is stored in the chain as NFT and is under the full control of the user.
-
-2. 
-Telephone Layber: Built on LayerZero, Users can set blacklist
+CoreData consists of two parts, the NFT (such as the ENS domain name) and the data for the direction setting.
+Users can set blacklist
 
 3. 
 UA, which is a client that users can use to communicate with other users. UA is usually implemented on multiple platforms, mobile, PC, and Web.
