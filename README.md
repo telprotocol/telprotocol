@@ -107,11 +107,11 @@ Alice "calls" Bob using his identity alice.eth, a type of Uniform Resource
 
 # Business scene
 
-Telephone
+Telephone/Voice
 ![avatar](/telephone.png)
 
 
-Sms
+Sms/Text
 ![avatar](/sms.png)
 
 
